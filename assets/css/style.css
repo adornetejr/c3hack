@@ -108,7 +108,7 @@ h3.quote:before {
   content: '';
   display: block;
   float: left;
-  background-image: url('/assets/images/quote.svg');
+  background-image: url('../images/quote.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left center;
@@ -224,7 +224,7 @@ ul.faq-list li.faq-entry h4 {
   padding-right: 2rem;
   margin: 0;
   cursor: pointer;
-  background-image: url('/assets/images/arrow.svg');
+  background-image: url('../images/arrow.svg');
   background-repeat: no-repeat;
   background-position: 100% 50%;
   background-size: 15px 10px;
