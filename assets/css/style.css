@@ -269,6 +269,10 @@ ul.faq-list li.faq-entry h4[aria-expanded="true"] {
   height: 6em;
 }
 
+.powered {
+  padding-bottom: 2.25rem;
+}
+
 .sponsor-logo {
   height: 12rem;
 }
