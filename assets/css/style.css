@@ -108,7 +108,7 @@ h3.quote:before {
   content: '';
   display: block;
   float: left;
-  background-image: url('assets/images/quote.png');
+  background-image: url('assets/images/quote.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left center;
@@ -237,8 +237,6 @@ ul.faq-list li.faq-entry p {
 ul.faq-list li.faq-entry h4[aria-expanded="true"] {
   background-image: none;
 }
-
-ul.faq-list li.faq-entry.expanded p {}
 
 .col-md.icon {
   text-align: center;
