@@ -108,7 +108,7 @@ h3.quote:before {
   content: '';
   display: block;
   float: left;
-  background-image: url('assets/images/quote.svg');
+  background-image: url('/assets/images/quote.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left center;
