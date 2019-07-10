@@ -74,6 +74,19 @@ em {
   color: #e5193d;
 }
 
+a[href="#top"] {
+  padding: 10px;
+  position: fixed;
+  top: 90%;
+  right: 40px;
+  display: none;
+  font-size: 30px;
+}
+
+a[href="#top"]:hover {
+  text-decoration: none;
+}
+
 h1 {
   color: #fff;
   font-weight: 600;
