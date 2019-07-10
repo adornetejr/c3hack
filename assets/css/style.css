@@ -299,7 +299,11 @@ ul.faq-list li.faq-entry h4[aria-expanded="true"] {
 }
 
 .partner-logo {
-  height: 3.5rem;
+  height: 4rem;
+}
+
+.mentor-logo {
+  height: 3rem;
 }
 
 .hackathon-partner {
