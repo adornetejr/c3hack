@@ -163,6 +163,8 @@ h4.floating {
 img {
   display: block;
   max-width: 100%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 
@@ -290,7 +292,6 @@ ul.faq-list li.faq-entry h4[aria-expanded="true"] {
 
 .compasso-logo {
   height: 6rem;
-  text-align: left;
 }
 
 .sponsor-logo {
