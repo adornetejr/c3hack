@@ -163,10 +163,7 @@ h4.floating {
 img {
   display: block;
   max-width: 100%;
-  width: 100%;
-  height: 100%;
   object-fit: contain;
-
 }
 
 .btn-primary {
@@ -289,6 +286,11 @@ ul.faq-list li.faq-entry h4[aria-expanded="true"] {
 
 .powered {
   padding-bottom: 2.25rem;
+}
+
+.compasso-logo {
+  height: 6rem;
+  text-align: left;
 }
 
 .sponsor-logo {
