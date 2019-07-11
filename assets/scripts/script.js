@@ -1,16 +1,61 @@
 $(document).ready(function onDocumentReady() {
-    var animation = bodymovin.loadAnimation({
-      container: document.getElementById('illustration'),
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      path: 'assets/json/data.json'
-    });
+  var animation = bodymovin.loadAnimation({
+    container: document.getElementById('illustration'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'assets/json/data.json'
   });
-  window.dataLayer = window.dataLayer || [];
+});
+window.dataLayer = window.dataLayer || [];
 
-  function gtag() {
-    dataLayer.push(arguments);
+$('#menuCronograma').hover(
+  function () {
+    $(this).addClass('active')
+  },
+  function () {
+    $(this).removeClass('active')
   }
-  gtag('js', new Date());
-  gtag('config', 'UA-143516100-1');
+)
+
+$('#menuDesafio').hover(
+  function () {
+    $(this).addClass('active')
+  },
+  function () {
+    $(this).removeClass('active')
+  }
+)
+
+$('#menuAvaliacao').hover(
+  function () {
+    $(this).addClass('active')
+  },
+  function () {
+    $(this).removeClass('active')
+  }
+)
+
+$('#menuPremiacao').hover(
+  function () {
+    $(this).addClass('active')
+  },
+  function () {
+    $(this).removeClass('active')
+  }
+)
+
+$('#menuFAQ').hover(
+  function () {
+    $(this).addClass('active')
+  },
+  function () {
+    $(this).removeClass('active')
+  }
+)
+
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag('js', new Date());
+gtag('config', 'UA-143516100-1');
