@@ -9,6 +9,15 @@ $(document).ready(function onDocumentReady() {
 });
 window.dataLayer = window.dataLayer || [];
 
+$('#menuSAICC').hover(
+  function () {
+    $(this).addClass('active')
+  },
+  function () {
+    $(this).removeClass('active')
+  }
+)
+
 $('#menuCronograma').hover(
   function () {
     $(this).addClass('active')
