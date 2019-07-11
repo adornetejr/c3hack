@@ -40,9 +40,9 @@ body {
 
 .navbar {
   border-radius: .5rem;
-  border-top: 1px solid #3B4252;
-  margin: 1rem;
-  padding: .5rem;
+  border-bottom: 1px solid #3B4252;
+  margin: 0rem;
+  padding: 0.4rem;
 }
 
 .navbar-brand img {
