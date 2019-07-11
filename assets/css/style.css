@@ -39,13 +39,14 @@ body {
 }
 
 .navbar {
-  border-bottom: 1px solid #3B4252;
-  margin-bottom: 5rem;
-  padding: 1rem;
+  border-radius: .5rem;
+  border-top: 1px solid #3B4252;
+  margin: 1rem;
+  padding: .5rem;
 }
 
 .navbar-brand img {
-  height: 2.5rem;
+  height: 1rem;
 }
 
 a {
@@ -74,24 +75,11 @@ em {
   color: #e5193d;
 }
 
-a[href="#top"] {
-  padding: 10px;
-  position: fixed;
-  top: 90%;
-  right: 40px;
-  display: none;
-  font-size: 30px;
-}
-
-a[href="#top"]:hover {
-  text-decoration: none;
-}
-
 h1 {
   color: #fff;
   font-weight: 600;
   font-style: normal;
-  font-size: 3.8rem;
+  font-size: 4.5rem;
 }
 
 h1.washed {
@@ -123,7 +111,7 @@ h2.alt {
 h2.logo {
   font-family: 'DoctorGlitch';
   font-weight: 100;
-  font-size: 3rem;
+  margin: 0px;
 }
 
 h3 {
@@ -162,15 +150,17 @@ h4.alt {
 }
 
 h4.bold {
-  color: #fff;
   font-weight: 600;
 }
 
 h4.floating {
-  color: #fff;
   position: absolute;
   top: 2.625rem;
   left: 4.25rem;
+}
+
+h5.alt {
+  color: #e5193d;
 }
 
 img {
@@ -304,15 +294,19 @@ ul.faq-list li.faq-entry h4[aria-expanded="true"] {
 }
 
 .compasso-logo {
-  height: 6rem;
+  height: 10rem;
 }
 
 .sponsor-logo {
   height: 12rem;
 }
 
-.partner-logo {
+.partner4-logo {
   height: 4rem;
+}
+
+.partner5-logo {
+  height: 5rem;
 }
 
 .mentor-logo {
