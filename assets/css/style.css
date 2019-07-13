@@ -64,6 +64,10 @@ a {
   color: white;
 }
 
+a.alt {
+  color: #e5193d;
+}
+
 a:hover {
   color: white;
 }
